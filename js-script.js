@@ -9,8 +9,7 @@ for (let i = 0; i < 16; i++) {
     container.appendChild(row);
     for (let i = 0; i < 16; i++) {
         const cell = document.createElement("div");
-        cell.className = "cell"
-        cell.textContent = "a";
+        cell.className = "cell";
         row.appendChild(cell);
     }
 }

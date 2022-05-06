@@ -6,3 +6,7 @@
     width: 32px;
     height: 32px;
 }
+
+.cell:hover {
+    background-color: black;
+}
