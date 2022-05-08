@@ -1,12 +1,12 @@
+.container {
+    width: 1024 px;
+    height: 1024 px;
+}
+
 .row {
     display: flex;
 }
 
 .cell {
-    width: 32px;
-    height: 32px;
-}
-
-.cell:hover {
-    background-color: black;
+    flex: 1 1 100%;
 }
